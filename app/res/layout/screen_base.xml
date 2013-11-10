@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:fitsSystemWindows="true">
+  <FrameLayout
+      android:id="@+id/sample_content"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      style="@style/Widget.InsideList.Overlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <TextView
+          android:id="@+id/tv_num_news"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/Widget.InsideLIst.ActionBarTitle"
+          />
+      <TextView
+          android:id="@+id/tv_num_calls"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="@style/Widget.InsideLIst.ActionBarTitle"
+          />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+      <TextView
+          android:id="@+id/tv_avg_time"
+          android:layout_width="0dp"
+          android:layout_weight="3"
+          android:layout_height="wrap_content"
+          style="@style/Widget.InsideLIst.ActionBarTitle"
+          />
+      <ImageButton
+          android:id="@+id/ib_refresh"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:src="@android:drawable/ic_menu_upload"
+          />
+    </LinearLayout>
+  </LinearLayout>
+</FrameLayout>

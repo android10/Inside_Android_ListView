@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/background_light">
+
+	<com.flipper.example.insidelist.component.DebugListView
+			android:id="@+id/ll_list"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+	</com.flipper.example.insidelist.component.DebugListView>
+
+	<LinearLayout
+			android:background="@android:color/background_light"
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true">
+		<CheckBox
+				android:id="@+id/cb_vpa"
+				android:text="@string/viewpropertyanimator"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		<CheckBox
+				android:id="@+id/cb_setTransientState"
+				android:text="@string/transient_state"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+	<string name="app_name">InsideListExample</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title_activity_inside_list">InsideList</string>
+	<string name="title_activity_recicle_list">RecicleBitmapList</string>
+
+	<string name="viewpropertyanimator">ViewPropertyAnimator</string>
+	<string name="transient_state">Transient State</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+	<ImageView
+			android:id="@+id/iv_avatar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_marginTop="20dip"
+			android:src="@drawable/avatar_1"/>
+
+	<TextView
+			android:id="@+id/tv_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/iv_avatar"
+            android:layout_alignTop="@id/iv_avatar"
+            android:layout_marginLeft="8dip"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+  <TextView
+      android:id="@+id/tv_render_time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/iv_avatar"
+      android:layout_below="@id/tv_title"
+      android:layout_marginLeft="8dip"
+      android:textSize="17sp"
+      android:textAppearance="?android:attr/textAppearanceLarge"/>
+  <TextView
+      android:id="@+id/tv_total_time"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/iv_avatar"
+      android:layout_below="@id/tv_render_time"
+      android:textSize="17sp"
+      android:layout_marginLeft="8dip"
+      android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+  <TextView
+      android:id="@+id/tv_render_calls"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/iv_avatar"
+      android:layout_below="@id/tv_total_time"
+      android:textSize="17sp"
+      android:layout_marginLeft="8dip"
+      android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>
