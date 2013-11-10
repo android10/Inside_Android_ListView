@@ -12,5 +12,4 @@ In this talk, Jorge Barroso and Fernando Cejas will explain the evolution of thi
 
 <p><b>Find the presentation [here](http://goo.gl/PoqEsG "DINOSAURS AND ANDROIDS: The ListView Evolution.").
 
-
 ![http://www.android10.org/myimages/talk_android_listview_evolution.png](http://www.android10.org/myimages/talk_android_listview_evolution.png)
