@@ -1,4 +1,4 @@
-Inside_Android_ListView
+Inside_Android_ListView [DEPRECATED]
 =======================
 
 Android application sample using Renderer Pattern for recycling listview elements.
